@@ -1,0 +1,12 @@
+# plugin
+regexp=^\w+$
+colours=bold blue
+-
+# version
+regexp=^\s+[\w.]+
+colours=magenta
+-
+# default version
+regexp=^\s\*([\w.]+)
+colours=unchanged, bold magenta
+
