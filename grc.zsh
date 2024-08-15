@@ -7,8 +7,9 @@ fi
 
 # Supported commands
 cmds=(
-  as
   ant
+  as
+  asdf
   base64
   blkid
   cc

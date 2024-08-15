@@ -11,6 +11,7 @@
 GRC="$(which grc)"
 if tty -s && [ -n "$TERM" ] && [ "$TERM" != dumb ] && [ -n "$GRC" ]; then
     alias colourify="$GRC -es"
+    alias asdf='colourify asdf'
     alias base64='colourify base64'
     alias blkid='colourify blkid'
     alias configure='colourify ./configure'
