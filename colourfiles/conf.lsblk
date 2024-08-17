@@ -1,5 +1,5 @@
 # Main HD
-regexp=^[a-z]+\d?\s
+regexp=^[a-z]+\d*\s
 colours=bold white
 ======
 # Partition
