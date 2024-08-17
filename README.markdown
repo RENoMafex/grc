@@ -1,5 +1,11 @@
 # Generic Colouriser
 
+## Maintaination
+
+Right now only the Colourfiles are actively maintained
+
+# Radovans README
+
 Radovan Garabík  <http://kassiopeia.juls.savba.sk/~garabik/software/grc.html> (garabik @ kassiopeia.juls.savba.sk)
 
 For the impatient - try following commands:
