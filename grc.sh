@@ -4,6 +4,8 @@
 # GRC_ALIASES=true
 # in /etc/default/grc or you export GRC_ALIASES=true prior to sourcing this
 
+[ -n "$BASH_VERSION" ] || exit 0
+
 set_grc_aliases () {
     local grc="$(which grc)"
     [ -z "$GRC_ALIASES" ] && [ -f /etc/default/grc ] && . /etc/default/grc
@@ -93,7 +95,6 @@ set_grc_aliases () {
         alias $name="colourify $name"
     done
 
-    alias configure='colourify ./configure'
 }
 
 set_grc_aliases
