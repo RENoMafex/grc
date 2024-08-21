@@ -4,11 +4,6 @@ from __future__ import print_function
 
 import os, re, string, sys, getopt, signal
 
-
-def version():
-    print ("Generic Colouriser 1.13")
-    sys.exit()
-
 def help():
     print("""Generic Colouriser 1.13
 grc [options] command [args]
