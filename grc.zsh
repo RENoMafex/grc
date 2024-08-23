@@ -44,7 +44,7 @@ cmds=(
   ldap
   lolcat
   ld
-  ls
+#  ls
   lsattr
   lsblk
   lsmod
