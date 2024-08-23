@@ -4,6 +4,12 @@
 
 Right now only the Colourfiles are actively maintained
 
+## How to Install/Uninstall
+
+To install simply run `sudo ./installi.sh`
+
+To uninstall just run `sudo ./uninstall.sh`
+
 # Radovans README
 
 Radovan Garabík  <http://kassiopeia.juls.savba.sk/~garabik/software/grc.html> (garabik @ kassiopeia.juls.savba.sk)
