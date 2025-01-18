@@ -33,6 +33,7 @@ if tty -s && [ -n "$TERM" ] && [ "$TERM" != dumb ] && [ -n "$GRC" ]; then
     alias gas='colourify gas'
     alias journalctl='colourify journalctl'
     alias kubectl='colourify kubectl'
+    alias nmap='colourify nmap'
     alias ld='colourify ld'
     #alias ls='colourify ls'
     alias lsof='colourify lsof'
