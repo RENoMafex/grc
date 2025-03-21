@@ -6,7 +6,7 @@ Right now only the Colourfiles are actively maintained
 
 ## How to Install/Uninstall
 
-To install simply run `sudo ./installi.sh`
+To install simply run `sudo ./install.sh`
 
 To uninstall just run `sudo ./uninstall.sh`
 
