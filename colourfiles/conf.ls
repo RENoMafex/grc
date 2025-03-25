@@ -15,19 +15,19 @@
 # The regexp uses lookahead to match a date following the size
 
 # size: 1M <= size < 10M
-regexp=\s+(\d{7}|\d(?:[,.]?\d+)?[KM])(?=\s[A-Z][a-z]{2}\s)
+regexp=\s+(\d{7}|\d(?:[,.]?\d+)?[KM])(?=\s[A-Z][äöüa-z]{2}\s)
 colours=green
 =======
 # size: 10M <= size < 100M
-regexp=\s+(\d{8}|\d\d(?:[,.]?\d+)?M)(?=\s[A-Z][a-z]{2}\s)
+regexp=\s+(\d{8}|\d\d(?:[,.]?\d+)?M)(?=\s[A-Z][äöüa-z]{2}\s)
 colours=yellow
 =======
 # size: 100M <= size < 1G
-regexp=\s+(\d{9}|\d{3}M)(?=\s[A-Z][a-z]{2}\s)
+regexp=\s+(\d{9}|\d{3}M)(?=\s[A-Z][äöüa-z]{2}\s)
 colours=red
 =======
 # size: 1G <= size
-regexp=\s+(\d{10,}|[\d.,]+G)(?=\s[A-Z][a-z]{2}\s)
+regexp=\s+(\d{10,}|[\d.,]+G)(?=\s[A-Z][äöüa-z]{2}\s)
 colours=bold red
 =======
 # device major minor numbers
