@@ -74,6 +74,7 @@ cmds=(
   tcpdump
   traceroute
   traceroute6
+  tree
   tune2fs
   ulimit
   uptime
