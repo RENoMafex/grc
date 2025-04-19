@@ -68,7 +68,7 @@ Set Width 1200
 Set Height 800
 Set Padding 4
 Set Margin 0
-Set PlaybackSpeed 1
+Set PlaybackSpeed 0.5
 Set FontFamily "FiraMono Nerd Font"
 
 Hide
