@@ -13,6 +13,7 @@ To uninstall just run `sudo ./uninstall.sh`
 ## Quick Demo
 
 ![A Quick demo using nmap](.assets/quickdemonmap.gif)
+![A Comparison of the outputs](.assets/nmap.png)
 
 # Radovans README
 

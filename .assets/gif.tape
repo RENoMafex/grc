@@ -72,20 +72,22 @@ Set PlaybackSpeed 1
 Set FontFamily "FiraMono Nerd Font"
 
 Hide
-Type@1s "tmux"
+Type "tmux"
 Enter
 Show
 Sleep 1
-Type@100ms "nmap 10.0.0.1/24 -Fn"
+Type "nmap 10.0.0.1/24 -Fn"
 Sleep 1
 Enter
 Sleep 6
 Ctrl+b
 Type "%"
-Sleep 100ms
-Type@100ms "grc "
-Sleep 500ms
-Type@100ms "nmap 10.0.0.1/24 -Fn"
+Sleep 1
+Type "grc "
+Sleep 1
+Type "nmap 10.0.0.1/24 -Fn"
 Sleep 1
 Enter
 Sleep 15
+Screenshot "nmap.png"
+
