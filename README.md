@@ -10,6 +10,10 @@ To install simply run `sudo ./install.sh`
 
 To uninstall just run `sudo ./uninstall.sh`
 
+## Quick Demo
+
+!(.assets/quickdemonmap.gif)[A Quick demo using nmap]
+
 # Radovans README
 
 Radovan Garabík  <http://kassiopeia.juls.savba.sk/~garabik/software/grc.html> (garabik @ kassiopeia.juls.savba.sk)
