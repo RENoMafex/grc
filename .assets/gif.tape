@@ -79,12 +79,12 @@ Sleep 1
 Type "nmap 10.0.0.1/24 -Fn"
 Sleep 1
 Enter
-Sleep 6
+Sleep 1
 Ctrl+b
 Type "%"
 Sleep 1
 Type "grc "
-Sleep 1
+Sleep 5
 Type "nmap 10.0.0.1/24 -Fn"
 Sleep 1
 Enter
